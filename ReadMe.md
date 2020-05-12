@@ -31,7 +31,7 @@ SIMPRE, anul 1
         2. primire raspuns: raspunsul vine sub forma unui fisier json ce contine un dictionar cu informatiile cerute;
             exemplu de raspuns:
             
-            ```Python
+            ```
             {
                 "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
                 "title": "My Neighbor Totoro",
