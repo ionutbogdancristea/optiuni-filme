@@ -5,8 +5,7 @@ SIMPRE, anul 1
 2020
 
 ## Descriere problema
-    Aceasta aplicatie web utilizeaza doua servicii in cloud, prin intermediu a doua API REST (The Movie Database (TMDb) API si Studio API) pentru a lista o colectie cuprinzatoare de filme, impreuna cu cateva date despre acestea. Aplicatia
- prezinta si un link construit pe baza unor variabile ce returneaza locatiile cinematografelor dintr-un oras la alegere (in cadrul unei cautari pe google maps).
+    Aceasta aplicatie web utilizeaza doua servicii in cloud, prin intermediu a doua API REST (The Movie Database (TMDb) API si Studio API) pentru a lista o colectie cuprinzatoare de filme, impreuna cu cateva date despre acestea. Aplicatia prezinta si un link construit pe baza unor variabile ce returneaza locatiile cinematografelor dintr-un oras la alegere (in cadrul unei cautari pe google maps).
 
 ## API-uri utilizate
     The Movie Database (TMDb) API - https://developers.themoviedb.org/3/getting-started/introduction
