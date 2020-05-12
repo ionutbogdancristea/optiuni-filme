@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Proiect cloud computing </title>
+    </head>
+    <body>
+        <div class = "container">
+        <h1> Filmele saptamanii: </h1>
+        {% for movie in results %}
+            <h3>{{ movie.title }}</h3>
+            <p>Nota: {{ movie.vote_average }}</p>
+            <p>Data lansarii: {{ movie.release_date }}</p>
+            <p></p>
+        {% endfor %}
+        <p>Cinematografe {{ favourite_cinema }} in {{ city }}:</p>
+        <p>{{ endpoint2 }}</p>
+        <p></p>
+        <p></p>
+        <h1> Optiuni anime-uri (studioul Ghibli): </h1>
+        {% for movie in results3 %}
+            <h3>{{ movie.title }}</h3>
+            <p>Nota: {{ movie.rt_score }}</p>
+            <p>Data lansarii: {{ movie.release_date }}</p>
+        {% endfor %}
+        </div>
+    </body>
+</html>

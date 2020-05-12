@@ -1,0 +1,5 @@
+Flask == 0.11.1
+gunicorn == 19.6.0
+google-api-python-client
+requests == 2.23.0
+requests-toolbelt == 0.9.1
